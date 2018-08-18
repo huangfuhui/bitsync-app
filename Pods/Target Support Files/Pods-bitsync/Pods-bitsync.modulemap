@@ -1,0 +1,6 @@
+framework module Pods_bitsync {
+  umbrella header "Pods-bitsync-umbrella.h"
+
+  export *
+  module * { export * }
+}

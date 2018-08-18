@@ -1,0 +1,6 @@
+framework module Pods_bitsyncTests {
+  umbrella header "Pods-bitsyncTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
