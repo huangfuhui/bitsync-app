@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		417798E92127BCE300E14986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417798E82127BCE300E14986 /* AppDelegate.swift */; };
-		417798EB2127BCE300E14986 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417798EA2127BCE300E14986 /* ViewController.swift */; };
-		417798EE2127BCE300E14986 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417798EC2127BCE300E14986 /* Main.storyboard */; };
 		417798F12127BCE300E14986 /* bitsync.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 417798EF2127BCE300E14986 /* bitsync.xcdatamodeld */; };
 		417798F32127BCE400E14986 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417798F22127BCE400E14986 /* Assets.xcassets */; };
 		417798F62127BCE400E14986 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417798F42127BCE400E14986 /* LaunchScreen.storyboard */; };
 		417799012127BCE400E14986 /* bitsyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417799002127BCE400E14986 /* bitsyncTests.swift */; };
 		4177990C2127BCE400E14986 /* bitsyncUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4177990B2127BCE400E14986 /* bitsyncUITests.swift */; };
+		4177992D2127C2A100E14986 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417799272127C2A100E14986 /* AppDelegate.swift */; };
+		4177992E2127C2A100E14986 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 417799282127C2A100E14986 /* Info.plist */; };
 		62BCCEE679EBE0D099D21997 /* Pods_bitsyncUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AEDB9E53EE9BB887BE40C5 /* Pods_bitsyncUITests.framework */; };
 		77E120887CBD3D596A82D3EB /* Pods_bitsync.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212364D0F1352B374DD44A0D /* Pods_bitsync.framework */; };
 		A821E2C88027B8533387D385 /* Pods_bitsyncTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9200CC781CB0A2A26CDEC5D9 /* Pods_bitsyncTests.framework */; };
@@ -41,19 +40,17 @@
 		212364D0F1352B374DD44A0D /* Pods_bitsync.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitsync.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		387BB14B1FAE5C530E166945 /* Pods-bitsyncUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitsyncUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bitsyncUITests/Pods-bitsyncUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		417798E52127BCE300E14986 /* bitsync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitsync.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		417798E82127BCE300E14986 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		417798EA2127BCE300E14986 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		417798ED2127BCE300E14986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		417798F02127BCE300E14986 /* bitsync.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bitsync.xcdatamodel; sourceTree = "<group>"; };
 		417798F22127BCE400E14986 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		417798F52127BCE400E14986 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		417798F72127BCE400E14986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		417798FC2127BCE400E14986 /* bitsyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitsyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		417799002127BCE400E14986 /* bitsyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitsyncTests.swift; sourceTree = "<group>"; };
 		417799022127BCE400E14986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		417799072127BCE400E14986 /* bitsyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitsyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4177990B2127BCE400E14986 /* bitsyncUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitsyncUITests.swift; sourceTree = "<group>"; };
 		4177990D2127BCE400E14986 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417799272127C2A100E14986 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		417799282127C2A100E14986 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B34F269E93B21E15087F8E5 /* Pods-bitsync.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitsync.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bitsync/Pods-bitsync.debug.xcconfig"; sourceTree = "<group>"; };
 		8C5E0B2B628F4C23F5C93DFA /* Pods-bitsyncTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bitsyncTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bitsyncTests/Pods-bitsyncTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9200CC781CB0A2A26CDEC5D9 /* Pods_bitsyncTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bitsyncTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,12 +113,9 @@
 		417798E72127BCE300E14986 /* bitsync */ = {
 			isa = PBXGroup;
 			children = (
-				417798E82127BCE300E14986 /* AppDelegate.swift */,
-				417798EA2127BCE300E14986 /* ViewController.swift */,
-				417798EC2127BCE300E14986 /* Main.storyboard */,
+				417799192127C2A100E14986 /* App */,
 				417798F22127BCE400E14986 /* Assets.xcassets */,
 				417798F42127BCE400E14986 /* LaunchScreen.storyboard */,
-				417798F72127BCE400E14986 /* Info.plist */,
 				417798EF2127BCE300E14986 /* bitsync.xcdatamodeld */,
 			);
 			path = bitsync;
@@ -143,6 +137,151 @@
 				4177990D2127BCE400E14986 /* Info.plist */,
 			);
 			path = bitsyncUITests;
+			sourceTree = "<group>";
+		};
+		417799192127C2A100E14986 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4177991A2127C2A100E14986 /* Home */,
+				4177991E2127C2A100E14986 /* Main */,
+				417799222127C2A100E14986 /* Mine */,
+				417799262127C2A100E14986 /* Others */,
+				417799292127C2A100E14986 /* Star */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4177991A2127C2A100E14986 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4177991B2127C2A100E14986 /* Controller */,
+				4177991C2127C2A100E14986 /* Model */,
+				4177991D2127C2A100E14986 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4177991B2127C2A100E14986 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4177991C2127C2A100E14986 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4177991D2127C2A100E14986 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4177991E2127C2A100E14986 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4177991F2127C2A100E14986 /* Controller */,
+				417799202127C2A100E14986 /* Model */,
+				417799212127C2A100E14986 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4177991F2127C2A100E14986 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		417799202127C2A100E14986 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		417799212127C2A100E14986 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		417799222127C2A100E14986 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				417799232127C2A100E14986 /* Controller */,
+				417799242127C2A100E14986 /* Model */,
+				417799252127C2A100E14986 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		417799232127C2A100E14986 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		417799242127C2A100E14986 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		417799252127C2A100E14986 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		417799262127C2A100E14986 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				417799272127C2A100E14986 /* AppDelegate.swift */,
+				417799282127C2A100E14986 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		417799292127C2A100E14986 /* Star */ = {
+			isa = PBXGroup;
+			children = (
+				4177992A2127C2A100E14986 /* Controller */,
+				4177992B2127C2A100E14986 /* Model */,
+				4177992C2127C2A100E14986 /* View */,
+			);
+			path = Star;
+			sourceTree = "<group>";
+		};
+		4177992A2127C2A100E14986 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4177992B2127C2A100E14986 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4177992C2127C2A100E14986 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		649635F2F25BB7124A798CE6 /* Frameworks */ = {
@@ -277,7 +416,7 @@
 			files = (
 				417798F62127BCE400E14986 /* LaunchScreen.storyboard in Resources */,
 				417798F32127BCE400E14986 /* Assets.xcassets in Resources */,
-				417798EE2127BCE300E14986 /* Main.storyboard in Resources */,
+				4177992E2127C2A100E14986 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,15 +442,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-bitsyncTests-checkManifestLockResult.txt",
 			);
@@ -325,15 +460,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-bitsync-checkManifestLockResult.txt",
 			);
@@ -347,15 +478,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-bitsyncUITests-checkManifestLockResult.txt",
 			);
@@ -371,9 +498,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				417798EB2127BCE300E14986 /* ViewController.swift in Sources */,
+				4177992D2127C2A100E14986 /* AppDelegate.swift in Sources */,
 				417798F12127BCE300E14986 /* bitsync.xcdatamodeld in Sources */,
-				417798E92127BCE300E14986 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,14 +535,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		417798EC2127BCE300E14986 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				417798ED2127BCE300E14986 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		417798F42127BCE400E14986 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
